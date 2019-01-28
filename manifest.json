@@ -1,0 +1,11 @@
+{
+  "name": "Requested Hosts",
+  "version": "1.0",
+  "description": "Log hosts and ports that requested",
+  "permissions": ["webRequest", "webRequestBlocking", "tabs", "<all_urls>"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "manifest_version": 2
+}
